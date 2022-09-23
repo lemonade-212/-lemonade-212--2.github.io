@@ -1,0 +1,30 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+body{
+    background-color: lightsteelblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.project1{
+    margin: 50px auto;
+    padding: 20px 15px;
+    text-align: center;
+    background-color: #FF5D3B;
+    width: 500px;
+    position: relative;
+    right: -400px;
+}
+.project1 #project1h2{
+    font-size: 35px;
+    color: blanchedalmond;
+}
+.project1 #project1h3{
+    font-size: 20px;
+    color: blanchedalmond;
+}
+.project1 img{
+    align-items: center;
+    border: 10px blanchedalmond dashed;
+    padding: 10px 10px;
+}
