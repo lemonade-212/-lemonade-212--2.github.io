@@ -1,0 +1,428 @@
+body{
+    margin: 10px;
+    padding: 0px;
+    height: 3000px;
+}
+
+.img{
+    top: 285px;
+    position: relative;
+}
+
+.bounding_box1{
+    width: 191.1px;
+    height: 242.46px;
+    display: inline-block;
+    padding: 0;
+    font-size: 0;
+    position: absolute;
+}
+#bounding_box_e{
+    display: inline-block;
+    left: 239.32px;
+    position: absolute;
+}
+#bounding_box_l{
+    display: inline-block;
+    left: 468.64px;
+    position: absolute;
+}
+#bounding_box_ll{
+    display: inline-block;
+    left: 697.96px;
+    position: absolute;
+}
+#bounding_box_o{
+    display: inline-block;
+    left: 927.28px;
+    position: absolute;
+}
+
+.box_solid{
+    width: 38.22px;
+    background-color: black;
+    display: inline-block;
+    padding: 0px;
+    margin-bottom: 13.14px;
+    
+}
+
+.bounding_box1:hover #box1{ 
+    animation-name: Gradient;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    transition: all 0.1s ease-in-out;
+}
+.bounding_box1 #box1{
+    animation-name: ReverseGr;
+    animation-timing-function: linear;
+    animation-duration: 7s;
+    animation-play-state: running;
+    transition: all 0.1s ease-in-out;
+}
+
+.bounding_box1:hover #box2{ 
+    animation-name: Gradient;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    transition: all 0.1s ease-in-out;
+}
+.bounding_box1 #box2{
+    animation-name: ReverseGr;
+    animation-timing-function: linear;
+    animation-duration: 7.5s;
+    animation-delay: 0.5s;
+    animation-play-state: running;
+    transition: all 0.1s ease-in-out;
+}
+.bounding_box1:hover #box3{ 
+    animation-name: Gradient;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    transition: all 0.1s ease-in-out;
+}
+.bounding_box1 #box3{
+    animation-name: ReverseGr;
+    animation-timing-function: linear;
+    animation-duration: 8s;
+    animation-delay: 1s;
+    animation-play-state: running;
+    transition: all 0.1s ease-in-out;
+}
+.bounding_box1:hover #box4{ 
+    animation-name: Gradient;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    transition: all 0.1s ease-in-out;
+}
+.bounding_box1 #box4{
+    animation-name: ReverseGr;
+    animation-timing-function: linear;
+    animation-duration: 8.5s;
+    animation-delay: 1.5s;
+    animation-play-state: running;
+    transition: all 0.1s ease-in-out;
+}
+.bounding_box1:hover #box5{ 
+    animation-name: Gradient;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    transition: all 0.1s ease-in-out;
+}
+.bounding_box1 #box5{
+    animation-name: ReverseGr;
+    animation-timing-function: linear;
+    animation-duration: 9s;
+    animation-delay: 2s;
+    animation-play-state: running;
+    transition: all 0.1s ease-in-out;
+}
+
+.bounding_box1:hover #betweenbox2{
+    animation-name: Gradient;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    transition: all 0.1s ease-in-out;
+}
+.bounding_box1 #betweenbox2{
+    animation-name: ReverseGr;
+    animation-timing-function: linear;
+    animation-duration: 7.5s;
+    animation-delay: 0.5s;
+    animation-play-state: running;
+    transition: all 0.1s ease-in-out;
+}
+
+.bounding_box1:hover #betweenbox1_e{
+    animation-name: Gradient;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    transition: all 0.1s ease-in-out;
+}
+.bounding_box1 #betweenbox1_e{
+    animation-name: ReverseGr;
+    animation-timing-function: linear;
+    animation-duration: 7s;
+    animation-play-state: running;
+    transition: all 0.1s ease-in-out;
+}
+
+.bounding_box1:hover #betweenbox2_e{
+    animation-name: Gradient;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    transition: all 0.1s ease-in-out;
+}
+.bounding_box1 #betweenbox2_e{
+    animation-name: ReverseGr;
+    animation-timing-function: linear;
+    animation-duration: 7.5s;
+    animation-delay: 0.5s;
+    animation-play-state: running;
+    transition: all 0.1s ease-in-out;
+}
+
+.bounding_box1:hover #betweenbox5_e{
+    animation-name: Gradient;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    transition: all 0.1s ease-in-out;
+}
+.bounding_box1 #betweenbox5_e{
+    animation-name: ReverseGr;
+    animation-timing-function: linear;
+    animation-duration: 9s;
+    animation-delay: 2s;
+    animation-play-state: running;
+    transition: all 0.1s ease-in-out;
+}
+
+.bounding_box1:hover #betweenbox5_l{
+    animation-name: Gradient;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    transition: all 0.1s ease-in-out;
+}
+.bounding_box1 #betweenbox5_l{
+    animation-name: ReverseGr;
+    animation-timing-function: linear;
+    animation-duration: 9s;
+    animation-delay: 2s;
+    animation-play-state: running;
+    transition: all 0.1s ease-in-out;
+}
+
+.bounding_box1:hover #betweenbox1_o{
+    animation-name: Gradient;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    transition: all 0.1s ease-in-out;
+}
+.bounding_box1 #betweenbox1_o{
+    animation-name: ReverseGr;
+    animation-timing-function: linear;
+    animation-duration: 7s;
+    animation-play-state: running;
+    transition: all 0.1s ease-in-out;
+}
+.bounding_box1:hover #betweenbox5_o{
+    animation-name: Gradient;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    transition: all 0.1s ease-in-out;
+}
+.bounding_box1 #betweenbox5_o{
+    animation-name: ReverseGr;
+    animation-timing-function: linear;
+    animation-duration: 9s;
+    animation-delay: 2s;
+    animation-play-state: running;
+    transition: all 0.1s ease-in-out;
+}
+
+
+#box1{
+    height: 96.5508px;
+}
+
+#box2{
+    height: 33.4225px;
+}
+#box3{
+    height: 23.8875px;
+}
+#box4{
+    height: 14.3325px;
+}
+#box5{
+    height: 9.555px;
+}
+
+
+
+.betweenbox1{
+    width: 114.66px;
+    height: 96.5508px;
+    margin-bottom: 13.14px;
+    padding: 0;
+    background-color: white;
+    display: inline-block;
+}
+#betweenbox1_e{
+    height: 9.555px;
+    width: 152.88px;
+    margin-bottom: 100.1358px;
+    background-color: black;
+}
+#betweenbox1_l{
+    margin-right: 38.22px;
+}
+#betweenbox1_o{
+    width: 114.66px;
+    height: 9.55px;
+    margin-bottom: 100.1358px;
+    background-color: black;
+}
+
+
+.betweenbox2{
+    width: 114.66px;
+    height: 9.555px;
+    margin-bottom: 37.0275px;
+    padding: 0;
+    background-color: black;
+    display: inline-block;
+}
+#betweenbox2_e{
+    width: 152.88px;
+}
+#betweenbox2_l{
+    width: 114.66px;
+    height: 33.4225px;
+    margin-bottom: 13.14px;
+    margin-right: 38.22px;
+    background-color: white;
+}
+#betweenbox2_o{
+    height: 33.4225px;
+    margin-bottom: 13.14px;
+    background-color: white;    
+}
+
+
+
+.betweenbox3{
+    width: 114.66px;
+    height: 23.8875px;
+    margin-bottom: 13.14px;
+    padding: 0;
+    display: inline-block;
+    background-color: white;
+}
+#betweenbox3_e{
+    margin-right: 38.22px;
+}
+#betweenbox3_l{
+    margin-right: 38.22px;
+}
+
+
+.betweenbox4{
+    width: 114.66px;
+    height: 14.3325px;
+    margin-bottom: 13.14px;
+    padding: 0;
+    display: inline-block;
+    background-color: white;
+}
+#betweenbox4_e{
+margin-right: 38.22px;
+}
+#betweenbox4_l{
+    margin-right: 38.22px;
+}
+
+
+.betweenbox5{
+    width: 114.66px;
+    height: 9.555px;
+    margin-bottom: 13.14px;
+    padding: 0;
+    display: inline-block;
+    background-color: white;
+}
+#betweenbox5_e{
+    width: 152.88px;
+    background-color: black;
+}
+#betweenbox5_l{
+    width: 152.88px;
+    background-color: black;
+}
+#betweenbox5_o{
+    background-color: black;
+}
+
+@keyframes Gradient{
+    0%{
+        background-color: #D8F781;
+        top: 30px;
+    }
+    50%{
+        background-color: #CEECF5;
+        top: 50px;
+    }
+    100%{
+        background-color: #F5A9D0;
+        top: 60px;
+    }
+} 
+@keyframes ReverseGr{
+    0%{
+        background-color: #F5A9D0;
+    }
+    50%{
+        background-color: #CEECF5;
+    }
+    100%{
+        background-color: #D8F781;
+    }
+}
+
