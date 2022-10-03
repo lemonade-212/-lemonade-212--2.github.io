@@ -1,10 +1,75 @@
+body{
+    background-color: lightsteelblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    margin: auto 0;
+    width: 500px;
+    height: 150px;
+    color: #FF5D3B;
+    position: fixed;
+    top: 25px;
+    left: 10px;
+    font-size: 75px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1:hover{
+    color: aquamarine;
+    transition: color 1s linear;
+}
+#flowericon{
+    position: fixed;
+    top: 300px;
+    left: 10px;
+}
+
+#flowericon p{
+    font-size: 75px;
+}
+.projectlink{
+    margin: 50px auto;
+    width: 300px;
+    height: auto;
+    position: fixed;
+    left: 10px;
+    top: 425px;
+    
+}
+.projectlink a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: blanchedalmond;
+    text-decoration-line: none;
+    display: inline-block;
+    margin: 20px auto;
+}
+#myname p{
+    
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    background-color: lightblue;
+    color: #FF5D3B;
+    border-radius: 50%;
+    position: sticky;
+    left: 10px;
+    top: 300px;
+
+}
+#myname p:hover{
+    transform: rotate(180deg);
+    transition: all 1s linear;
+}
+
+.project1 img{
+    align-items: center;
+    border: 5px blanchedalmond dashed;
+    padding: 10px 10px;
+}
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     
-}
-body{
-    background-color: lightsteelblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .project1{
     margin: 50px auto;
@@ -22,9 +87,4 @@ body{
 .project1 #project1h3{
     font-size: 20px;
     color: blanchedalmond;
-}
-.project1 img{
-    align-items: center;
-    border: 10px blanchedalmond dashed;
-    padding: 10px 10px;
 }

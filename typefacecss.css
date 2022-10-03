@@ -37,6 +37,24 @@ body{
     left: 927.28px;
     position: absolute;
 }
+#bounding_box_l_left{
+    display: inline-block;
+    left: 700px;
+    top: 300px;
+    position: absolute;
+}
+#bounding_box_e_left{
+    display: inline-block;
+    left: 929.32px;
+    top: 300px;
+    position: absolute;
+}
+#bounding_box_f_left{
+    display: inline-block;
+    left: 1158.64px;
+    top: 300px;
+    position: absolute;
+}
 
 .box_solid{
     width: 38.22px;
@@ -398,6 +416,9 @@ margin-right: 38.22px;
 }
 #betweenbox5_o{
     background-color: black;
+}
+#betweenbox5_f{
+    background-color: white;
 }
 
 @keyframes Gradient{
