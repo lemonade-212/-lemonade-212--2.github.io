@@ -1,42 +1,32 @@
 body{
     background-color: lightsteelblue;
-    font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-    margin: auto 0;
-    width: 500px;
+    margin: 100px auto;
+    padding: auto 0;
+    width: 1000px;
     height: 150px;
     color: #FF5D3B;
-    position: fixed;
-    top: 25px;
-    left: 10px;
-    font-size: 75px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h1:hover{
     color: aquamarine;
     transition: color 1s linear;
 }
-#flowericon{
-    position: fixed;
-    top: 300px;
-    left: 10px;
-}
 
-#flowericon p{
-    font-size: 75px;
-}
 .projectlink{
     margin: 50px auto;
+    background-color: #FF5D3B;
     width: 300px;
     height: auto;
-    position: fixed;
-    left: 10px;
-    top: 425px;
+    text-align: center;
+    line-height: auto;
     
 }
 .projectlink a{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     color: blanchedalmond;
     text-decoration-line: none;
@@ -70,6 +60,17 @@ h1:hover{
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 50px auto;
+    padding: 10px 0;
+    background-color: #FF5D3B;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    line-height: auto;
+    color: blanchedalmond;
 }
 .project1{
     margin: 50px auto;

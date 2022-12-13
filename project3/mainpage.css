@@ -1,0 +1,29 @@
+body{
+    text-decoration: none;
+}
+.text{
+    position: fixed;
+    top: 600px;
+    left: 40px;
+    width: 300px;
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text #abstract{
+    font-size: 20pt;
+    text-decoration: none;
+    color: #00D19F;
+}
+.text #dancheong{
+    font-size: 20pt;
+    text-decoration: none;
+    color: #00D19F;
+}
+.text #object{
+    font-size: 20pt;
+    text-decoration: none;
+    color: #00D19F;
+}
+.text p{
+    color: #00D19F;
+}

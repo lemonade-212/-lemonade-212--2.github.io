@@ -1,0 +1,1314 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+.poem{
+    padding: 10px 15px;
+    font-size: 20px;
+    line-height: 20px;
+}
+.poem a{
+    text-decoration: none;
+}
+.dot{
+    font-size: 36px;
+    font-weight: bold;
+}
+.dashbox{
+    border-right: 1pt dashed black;
+    border-top: 1pt dashed black;
+}
+.xdashbox{
+    border-left: 1pt dashed black;
+    border-top: 1pt dashed black;
+}
+.x2dashbox{
+    border-left: 1pt dashed black;
+    border-bottom: 1pt dashed black;
+}
+.zdashbox{
+    border-right: 1pt dashed black;
+    border-bottom: 1pt dashed black;
+}
+
+#yline{
+    position: absolute;
+    top: 20px;
+    left: 573px;
+    width: 2pt;
+    height: 729pt;
+    background: black;
+}
+#xline{
+    position: absolute;
+    top: 290px;
+    left: 345px;
+    width: 2pt;
+    height: 360pt;
+    background: black;
+    transform: rotate(252deg);
+}
+#zline{
+    position: absolute;
+    top: 254px;
+    left: 793px;
+    width: 2pt;
+    height: 333pt;
+    background: black;
+    transform: rotate(95deg);
+}
+
+.triangle {
+    width: 0px;
+    height: 0px;
+    border-bottom: 10pt solid black;
+    border-left: 5pt solid transparent;
+    border-right: 5pt solid transparent;
+}
+#ytriangle{
+    position: absolute;
+    top: 15px;
+    left: 568px;
+}
+#xtriangle{
+    position: absolute;
+    top: 598px;
+    left: 110px;
+    transform: rotate(252deg);
+}
+#ztriangle{
+    position: absolute;
+    top: 490px;
+    left: 1015px;
+    transform: rotate(95deg);
+}
+
+#yaxis{
+    position: absolute;
+    top: 13px;
+    left: 590px;
+}
+#xaxis{
+    position: absolute;
+    top: 610px;
+    left: 105px;
+}
+#zaxis{
+    position: absolute;
+    top: 500px;
+    left: 1030px;
+}
+
+/*space3*/
+#dashbox3{
+    width: 50px;
+    height: 400px;
+    transform: skewY(-20deg);
+    position: absolute;
+    top: 200px;
+    left: 523px;
+    animation: dashbox3 5s infinite ease;
+    animation-play-state: running;
+}
+#spacedot3{
+    animation: dotmove3 5s infinite ease;
+    animation-play-state: running;
+}
+#space3{
+    position: absolute;
+    top: 191px;
+    left: 517px;
+    animation: dotmove3 5s infinite ease;
+    animation-play-state: running;
+    z-index: 30;
+}
+@keyframes dashbox3{
+    0%{
+        position: absolute;
+        top: 200px;
+        left: 523px;
+    }
+    50%{
+        position: absolute;
+        top: 120px;
+        left: 548px;
+        width: 25px;
+    }
+    100%{
+        position: absolute;
+        top: 200px;
+        left: 523px;
+    }
+    
+}
+@keyframes dotmove3{
+    0%{
+        position: absolute;
+        top: 191px;
+        left: 517px;
+    }
+    50%{
+        position: absolute;
+        top: 106px;
+        left: 542px;
+    }
+    100%{
+        position: absolute;
+        top: 191px;
+        left: 517px;
+    }
+}
+#space3:hover{
+    animation-play-state: paused;
+}
+#space3:hover ~ #dashbox3{
+    animation-play-state: paused;
+}
+#space3:hover ~ #spacedot3{
+    animation-play-state: paused;
+}
+/*space4*/
+#dashbox4{
+    width: 200px;
+    height: 300px;
+    transform: skewY(-35deg);
+    position: absolute;
+    top: 200px;
+    left: 373px;
+    animation: dashbox4 5s infinite ease;
+    animation-play-state: running;
+    z-index: 2;
+}
+#spacedot4{
+    animation: dotmove4 5s infinite ease;
+    animation-play-state: running;
+}
+#space4{
+    position: absolute;
+    top: 300px;
+    left: 368px;
+    animation: dotmove4 5s infinite ease;
+    animation-play-state: running;
+    z-index: 40;
+}
+@keyframes dashbox4{
+    0%{
+        position: absolute;
+        top: 250px;
+        left: 373px;
+    }
+    50%{
+        position: absolute;
+        top: 300px;
+        left: 273px;
+        width: 300px;
+    }
+    100%{
+        position: absolute;
+        top: 250px;
+        left: 373px;
+    }
+}
+@keyframes dotmove4{
+    0%{
+        position: absolute;
+        top: 300px;
+        left: 368px;
+    }
+    50%{
+        position: absolute;
+        top: 385px;
+        left: 268px;
+    }
+    100%{
+        position: absolute;
+        top: 300px;
+        left: 368px;
+    }
+}
+#space4:hover{
+    animation-play-state: paused;
+}
+#space4:hover ~ #dashbox4{
+    animation-play-state: paused;
+}
+#space4:hover ~ #spacedot4{
+    animation-play-state: paused;
+}
+
+
+/*space5*/
+#space5{
+    top: 245px;
+    left: 668px;
+    position: absolute;
+    animation: dotmove5 5s infinite ease;
+    animation-play-state: running;
+    z-index: 100;
+}
+#spacedot5{
+    animation: dotmove5 5s infinite ease;
+    animation-play-state: running;
+}
+#dashbox5{
+    width: 100px;
+    height: 200px;
+    transform: skewY(5deg);
+    animation: dashbox5 5s infinite ease;
+    animation-play-state: running;
+}
+@keyframes dashbox5{
+    0%{
+        position: absolute;
+        top: 260px;
+        left: 573px;
+    }
+    50%{
+        position: absolute;
+        top: 340px;
+        left: 573px;
+        transform-origin: 50%;
+        transform: scaleY(0.5);
+    }
+    100%{
+        position: absolute;
+        top: 260px;
+        left: 573px;
+    }
+}
+@keyframes dotmove5{
+    0%{
+        top: 245px;
+        left: 668px;
+        position: absolute;
+    }
+    50%{
+        top: 370px;
+        left: 668px;
+        position: absolute;
+    }
+    100%{
+        top: 245px;
+        left: 668px;
+        position: absolute;
+    }
+}
+#space5:hover{
+    animation-play-state: paused;
+}
+#space5:hover ~ #spacedot5{
+    animation-play-state: paused;
+}
+#space5:hover ~ .dashbox{
+    animation-play-state: paused;
+}
+/*space6*/
+#dashbox6{
+    width: 200px;
+    height: 350px;
+    transform: skewY(10deg);
+    animation: dashbox6 5s infinite ease;
+    animation-play-state: running;
+    z-index: 0;
+}
+#spacedot6{
+    animation: dotmove6 5s infinite ease;
+    animation-play-state: running;
+}
+#space6{
+    animation: dotmove6 5s infinite ease;
+    animation-play-state: running;
+}
+@keyframes dashbox6{
+    0%{
+        position: absolute;
+        top: 300px;
+        left: 574px;
+    }
+    50%{
+        position: absolute;
+        top: 300px;
+        left: 574px;
+        transform-origin: 50%;
+        transform: scaleY(1.5);
+    }
+    100%{
+        position: absolute;
+        top: 300px;
+        left: 574px;
+    }
+}
+@keyframes dotmove6{
+    0%{
+        position: absolute;
+        top: 299px;
+        left: 769px;
+    }
+    50%{
+        position: absolute;
+        top: 194px;
+        left: 769px;
+    }
+    100%{
+        position: absolute;
+        top: 299px;
+        left: 769px;
+    }
+}
+#space6:hover{
+    animation-play-state: paused;
+}
+#space6:hover ~ #dashbox6{
+    animation-play-state: paused;
+}
+#space6:hover ~ #spacedot6{
+    animation-play-state: paused;
+}
+/*space7*/
+#dashbox7{
+    width: 100px;
+    height: 500px;
+    transform: skewY(-10deg);
+    animation: dashbox7 5s infinite ease;
+    animation-play-state: running;
+}
+#spacedot7{
+    animation: dotmove7 5s infinite ease;
+    animation-play-state: running;
+}
+#space7{
+    position: absolute;
+    top: 90px;
+    left: 468px;
+    animation: dotmove7 5s infinite ease;
+    animation-play-state: running;
+}
+@keyframes dashbox7{
+    0%{
+        position: absolute;
+        top: 100px;
+        left: 473px;
+    }
+    50%{
+        position: absolute;
+        top: 100px;
+        left: 563px;
+        width: 10px;
+    }
+    100%{
+        position: absolute;
+        top: 100px;
+        left: 473px;
+    }
+}
+@keyframes dotmove7{
+    0%{
+        position: absolute;
+        top: 90px;
+        left: 468px;
+    }
+    50%{
+        position: absolute;
+        top: 82px;
+        left: 558px;
+    }
+    100%{
+        position: absolute;
+        top: 90px;
+        left: 468px;
+    }
+}
+#space7:hover{
+    animation-play-state: paused;
+}
+#space7:hover ~ #dashbox7{
+    animation-play-state: paused;
+}
+#space7:hover ~ #spacedot7{
+    animation-play-state: paused;
+}
+/*space8*/
+#dashbox8{
+    width: 400px;
+    height: 300px;
+    top: 220px;
+    left: 173px;
+    position: absolute;
+    transform: skewY(-18deg);
+    animation: dashbox8 5s infinite ease;
+    animation-play-state: running;
+    z-index: 4;
+}
+#spacedot8{
+    animation: dotmove8 5s infinite ease;
+    animation-play-state: running;
+}
+#space8{
+    position: absolute;
+    top: 265px;
+    left: 168px;
+    animation: dotmove8 5s infinite ease;
+    animation-play-state: running;
+    z-index: 5;
+}
+@keyframes dashbox8{
+    0%{
+        position: absolute;
+        top: 220px;
+        left: 173px;
+    }
+    50%{
+        position: absolute;
+        width: 340px;
+        height: 240px;
+        top: 270px;
+        left: 230px;
+    }
+}
+@keyframes dotmove8 {
+    0%{
+        position: absolute;
+        top: 265px;
+        left: 168px;
+    }
+    50%{
+        left: 225px;
+        top: 305px;
+        position: absolute;
+    }
+    100%{
+        position: absolute;
+        top: 265px;
+        left: 168px;
+    }
+}
+#space8:hover{
+    animation-play-state: paused;
+}
+#space8:hover ~ #spacedot8{
+    animation-play-state: paused;
+}
+#space8:hover ~ #dashbox8{
+    animation-play-state: paused;
+}
+/*space9*/
+#dashbox9{
+    width: 160px;
+    height: 400px;
+    position: absolute;
+    top: 60px;
+    left: 573px;
+    transform: skewY(5deg);
+    animation: dashbox9 5s infinite ease;
+    animation-play-state: running;
+    z-index: -30;
+}
+#spacedot9{
+    animation: dotmove9 5s infinite ease;
+    animation-play-state: running;
+}
+#space9{
+    animation: dotmove9 5s infinite ease;
+    animation-play-state: running;
+}
+@keyframes dashbox9{
+    0%{
+        position: absolute;
+        top: 60px;
+        left: 573px;
+    }
+    50%{
+        position: absolute;
+        top: 70px;
+        left: 573px;
+        width: 350px;
+    }
+    100%{
+        position: absolute;
+        top: 60px;
+        left: 573px;
+    }
+}
+@keyframes dotmove9{
+    0%{
+        position: absolute;
+        top: 48px;
+        left: 729px;
+    }
+    50%{
+        position: absolute;
+        top: 67px;
+        left: 918px;
+    }
+    100%{
+        position: absolute;
+        top: 48px;
+        left: 729px;
+    }
+}
+#space9:hover{
+    animation-play-state: paused;
+}
+#space9:hover ~ #dashbox9{
+    animation-play-state: paused;
+}
+#space9:hover ~ #spacedot9{
+    animation-play-state: paused;
+}
+/*space10*/
+#dashbox10{
+    width: 110px;
+    height: 65px;
+    transform: skewY(-50deg);
+    position: absolute;
+    top: 440px;
+    left: 463px;
+    animation: dashbox10 5s infinite ease;
+    animation-play-state: running;
+    z-index: -10;
+}
+#spacedot10{
+    animation: dotmove10 5s infinite ease;
+    animation-play-state: running;
+}
+#space10{
+    animation: dotmove10 5s infinite ease;
+    animation-play-state: running;
+    z-index: 50;
+}
+@keyframes dashbox10 {
+    0%{
+        position: absolute;
+        top: 440px;
+        left: 463px;
+    }
+    50%{
+        position: absolute;
+        top: 440px;
+        left: 463px;
+        transform: skewY(-20deg);
+    }
+    100%{
+        position: absolute;
+        top: 440px;
+        left: 463px;
+}
+}
+@keyframes dotmove10 {
+    0%{
+        position: absolute;
+        top: 486px;
+        left: 458px;
+    }
+    50%{
+        position: absolute;
+        top: 440px;
+        left: 458px;
+    }
+    100%{
+        position: absolute;
+        top: 486px;
+        left: 458px;
+}
+}
+#space10:hover{
+    animation-play-state: paused;
+}
+#space10:hover ~ #dashbox10{
+    animation-play-state: paused;
+}
+#space10:hover ~ #spacedot10{
+    animation-play-state: paused;
+}
+/*space11*/
+#dashbox11{
+    width: 250px;
+    height: 300px;
+    transform: skewY(30deg);
+    position: absolute;
+    top: 300px;
+    left: 573px;
+    animation: dashbox11 5s infinite ease;
+    animation-play-state: running;
+    z-index: -25;
+}
+#spacedot11{
+    animation: dotmove11 5s infinite ease;
+    animation-play-state: running;
+}
+#space11{
+    position: absolute;
+    top: 353px;
+    left: 818px;
+    animation: dotmove11 5s infinite ease;
+    animation-play-state: running;
+}
+@keyframes dashbox11{
+    0%{
+        position: absolute;
+        top: 300px;
+        left: 573px;
+    }
+    50%{
+        position: absolute;
+        top: 300px;
+        left: 573px;
+        transform: skewY(50deg);
+    }
+    100%{
+        position: absolute;
+        top: 300px;
+        left: 573px;
+    }
+}
+@keyframes dotmove11{
+    0%{
+        position: absolute;
+        top: 353px;
+        left: 818px;
+    }
+    50%{
+        position: absolute;
+        top: 428px;
+        left: 818px;
+    }
+    100%{
+        position: absolute;
+        top: 353px;
+        left: 818px;
+    }
+}
+#space11:hover{
+    animation-play-state: paused;
+}
+#space11:hover ~ #dashbox11{
+    animation-play-state: paused;
+}
+#space11:hover ~ #spacedot11{
+    animation-play-state: paused;
+}
+/*space12*/
+#dashbox12{
+    width: 100px;
+    height: 450px;
+    position: absolute;
+    top: 200px;
+    left: 573px;
+    transform: skewY(10deg);
+    animation: dashbox12 5s infinite ease;
+    animation-play-state: running;
+}
+#spacedot12{
+    position: absolute;
+    top: 190px;
+    left: 668px;
+    animation: dotmove12 5s infinite ease;
+    animation-play-state: running;
+}
+#space12{
+    position: absolute;
+    top: 190px;
+    left: 668px;
+    animation: dotmove12 5s infinite ease;
+    animation-play-state: running;
+    z-index: 70;
+}
+@keyframes dashbox12{
+    0%{
+        position: absolute;
+        top: 200px;
+        left: 573px;
+    }
+    50%{
+        position: absolute;
+        top: 400px;
+        left: 573px;
+        width: 40px;
+        height: 150px;
+    }
+    100%{
+        position: absolute;
+        top: 200px;
+        left: 573px;
+    }
+}
+@keyframes dotmove12{
+    0%{
+        position: absolute;
+        top: 190px;
+        left: 668px;
+    }
+    50%{
+        position: absolute;
+        top: 385px;
+        left: 608px;
+    }
+    100%{
+        position: absolute;
+        top: 190px;
+        left: 668px;
+    }
+}
+#space12:hover{
+    animation-play-state: paused;
+}
+#space12:hover ~ #dashbox12{
+    animation-play-state: paused;
+}
+#space12:hover ~ #spacedot12{
+    animation-play-state: paused;
+}
+/*space13*/
+#dashbox13{
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    top: 135px;
+    left: 272px;
+    transform: skewY(-25deg);
+    animation: dashbox13 5s infinite ease;
+    animation-play-state: running;
+}
+#spacedot13{
+    animation: dotmove13 5s infinite ease;
+    animation-play-state: running;
+}
+#space13{
+    position: absolute;
+    left: 267px;
+    top: 186px;
+    animation: dotmove13 5s infinite ease;
+    animation-play-state: running;
+    z-index: 40;
+}
+@keyframes dashbox13{
+    0%{
+        position: absolute;
+        top: 135px;
+        left: 272px;
+    }
+    50%{
+        position: absolute;
+        top: 135px;
+        left: 420px;
+        width: 150px;
+        height: 400px;
+    }
+    100%{
+        position: absolute;
+        top: 135px;
+        left: 272px;
+    }
+}
+@keyframes dotmove13{
+    0%{
+        position: absolute;
+        left: 267px;
+        top: 186px;
+    } 
+    50%{
+        position: absolute;
+        left: 415px;
+        top: 150px;
+    }
+    100%{
+        position: absolute;
+        left: 267px;
+        top: 186px;
+    }
+}
+#space13:hover{
+    animation-play-state: paused;
+}
+#space13:hover ~ #dashbox13{
+    animation-play-state: paused;
+}
+#space13:hover ~ #spacedot13{
+    animation-play-state: paused;
+}
+/*space14*/
+#dashbox14{
+    width: 300px;
+    height: 500px;
+    transform: skewY(45deg);
+    position: absolute;
+    left: 573px;
+    top: 200px;
+    animation: dashbox14 5s infinite ease;
+    animation-play-state: running;
+    z-index: -20;
+}
+#spacedot14{
+    animation: dotmove14 5s infinite ease;
+    animation-play-state: running;
+}
+#space14{
+    animation: dotmove14 5s infinite ease;
+    animation-play-state: running;
+}
+@keyframes dashbox14{
+    0%{
+        position: absolute;
+        left: 573px;
+        top: 200px;
+    }
+    50%{
+        position: absolute;
+        left: 573px;
+        top: 200px;
+        transform: skewY(15deg);
+        width: 400px;
+    }
+    100%{
+        position: absolute;
+        left: 573px;
+        top: 200px;
+    }
+}
+@keyframes dotmove14{
+    0%{
+        position: absolute;
+        left: 868px;
+        top: 329px;
+    }
+    50%{
+        position: absolute;
+        left: 968px;
+        top: 233px;
+    }
+    100%{
+        position: absolute;
+        left: 868px;
+        top: 329px;
+    }
+}
+#space14:hover{
+    animation-play-state: paused;
+}
+#space14:hover ~ #dashbox14{
+    animation-play-state: paused;
+}
+#space14:hover ~ #spacedot14{
+    animation-play-state: paused;
+}
+/*space15*/
+#dashbox15{
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    left: 573px;
+    top: 500px;
+    transform: skewY(30deg);
+    animation: dashbox15 5s infinite ease;
+    animation-play-state: running;
+}
+#spacedot15{
+    position: absolute;
+    left: 868px;
+    top: 567px;
+    animation: dotmove15 5s infinite ease;
+    animation-play-state: running;
+}
+#space15{
+    position: absolute;
+    left: 868px;
+    top: 567px;
+    animation: dotmove15 5s infinite ease;
+    animation-play-state: running;
+}
+@keyframes dashbox15{
+    0%{
+        position: absolute;
+        left: 573px;
+        top: 500px;
+    }
+    50%{
+        position: absolute;
+        top: 500px;
+        left: 573px;
+        width: 200px;
+    }
+    100%{
+        position: absolute;
+        left: 573px;
+        top: 500px; 
+    }
+}
+@keyframes dotmove15{
+    0%{
+        position: absolute;
+        left: 868px;
+        top: 567px;
+    }
+    50%{
+        position: absolute;
+        left: 768px;
+        top: 537px;
+    }
+    100%{
+        position: absolute;
+        left: 868px;
+        top: 567px;
+    }
+}
+#space15:hover{
+    animation-play-state: paused;
+}
+#space15:hover ~ #dashbox15{
+    animation-play-state: paused;
+}
+#space15:hover~ #spacedot15{
+    animation-play-state: paused;
+}
+/*space16*/
+#dashbox16{
+    width: 430px;
+    height: 340px;
+    top: 185px;
+    left: 143px;
+    position: absolute;
+    transform: skewY(-18deg);
+    animation: dashbox16 5s infinite ease;
+    animation-play-state: running;
+}
+#spacedot16{
+    position: absolute;
+    left: 138px;
+    top: 235px;
+    animation: dotmove16 5s infinite ease;
+    animation-play-state: running;
+}
+#space16{
+    position: absolute;
+    left: 138px;
+    top: 235px;
+    animation: dotmove16 5s infinite ease;
+    animation-play-state: running;
+    z-index: 60;
+}
+@keyframes dashbox16{
+    0%{
+        top: 185px;
+        left: 143px;
+        position: absolute;
+    }
+    50%{
+        top: 85px;
+        left: 243px;
+        position: absolute;
+        width: 330px;
+        height: 425px;
+    }
+    100%{
+        top: 185px;
+        left: 143px;
+        position: absolute;
+    }
+}
+@keyframes dotmove16{
+    0%{
+        position: absolute;
+        left: 138px;
+        top: 235px;  
+    }
+    50%{
+        position: absolute;
+        left: 238px;
+        top: 118px;
+    }
+    100%{
+        position: absolute;
+        left: 138px;
+        top: 235px;
+    }
+}
+#space16:hover{
+    animation-play-state: paused;
+}
+#space16:hover ~ #dashbox16{
+    animation-play-state: paused;
+}
+#space16:hover ~ #spacedot16{
+    animation-play-state: paused;
+}
+/*space17*/
+#dashbox17{
+    width: 420px;
+    height: 322px;
+    position: absolute;
+    transform: skewY(5deg);
+    left: 573px;
+    top: 150px;
+    animation: dashbox17 5s infinite ease;
+    animation-play-state: running;
+    z-index: -70;
+}
+#spacedot17{
+    position: absolute;
+    top: 149px;
+    left: 988px;
+    animation: dotmove17 5s infinite ease;
+    animation-play-state: running;
+}
+#space17{
+    position: absolute;
+    top: 149px;
+    left: 988px;
+    animation: dotmove17 5s infinite ease;
+    animation-play-state: running;
+}
+@keyframes dashbox17{
+    0%{
+        left: 573px;
+        top: 150px;
+        position: absolute;
+    }
+    50%{
+        left: 573px;
+        top: 150px;
+        position: absolute;
+        width: 300px;
+    }
+    100%{
+        left: 573px;
+        top: 150px;
+    }
+}
+@keyframes dotmove17{
+    0%{
+        position: absolute;
+        top: 149px;
+        left: 988px;
+    }
+    50%{
+        position: absolute;
+        top: 145px;
+        left: 868px;
+    }
+    100%{
+        position: absolute;
+        top: 149px;
+        left: 988px;
+    }
+}
+#space17:hover{
+    animation-play-state: paused;
+}
+#space17:hover ~ #dashbox17{
+    animation-play-state: paused;
+}
+#space17:hover ~ #spacedot17{
+    animation-play-state: paused;
+}
+/*space18*/
+#dashbox18{
+    width: 270px;
+    height: 70px;
+    position: absolute;
+    left: 573px;
+    top: 430px;
+    transform: skewY(30deg);
+    animation: dashbox18 5s infinite ease;
+    animation-play-state: running;
+}
+#spacedot18{
+    position: absolute;
+    left: 838px;
+    top: 488px;
+    animation: dotmove18 5s infinite ease;
+    animation-play-state: running;
+}
+#space18{
+    position: absolute;
+    left: 838px;
+    top: 488px;
+    animation: dotmove18 5s infinite ease;
+    animation-play-state: running;
+}
+@keyframes dashbox18{
+    0%{
+        position: absolute;
+        left: 573px;
+        top: 430px;
+    }
+    50%{
+        position: absolute;
+        left: 573px;
+        top: 430px;
+        width: 400px;
+    }
+    100%{
+        position: absolute;
+        left: 573px;
+        top: 430px;
+    }
+}
+@keyframes dotmove18{
+    0%{
+        position: absolute;
+        left: 838px;
+        top: 488px;
+    }
+    50%{
+        position: absolute;
+        left: 968px;
+        top: 525px;
+    }
+    100%{
+        position: absolute;
+        left: 838px;
+        top: 488px;
+    }
+}
+#space18:hover{
+    animation-play-state: paused;
+}
+#space18:hover ~ #dashbox18{
+    animation-play-state: paused;
+}
+#space18:hover ~ #spacedot18{
+    animation-play-state: paused;
+}
+/*space19*/
+#dashbox19{
+    width: 350px;
+    height: 150px;
+    position: absolute;
+    transform: skewY(-25deg);
+    top: 450px;
+    left: 223px;
+    animation: dashbox19 5s infinite ease;
+    animation-play-state: running;
+}
+#spacedot19{
+    position: absolute;
+    top: 512px;
+    left: 218px;
+    animation: dotmove19 5s infinite ease;
+    animation-play-state: running;
+}
+#space19{
+    position: absolute;
+    top: 512px;
+    left: 218px;
+    animation: dotmove19 5s infinite ease;
+    animation-play-state: running;
+    z-index: 20;
+}
+@keyframes dashbox19{
+    0%{
+        position: absolute;
+        top: 450px;
+        left: 223px;
+    }
+    50%{
+        position: absolute;
+        top: 450px;
+        left: 170px;
+        width: 400px;
+        transform: skewY(-10deg);
+    }
+    100%{
+        position: absolute;
+        top: 450px;
+        left: 223px;
+    }
+}
+@keyframes dotmove19{
+    0%{
+        position: absolute;
+        top: 512px;
+        left: 218px;
+    }
+    50%{
+        position: absolute;
+        top: 467px;
+        left: 165px;
+    }
+    100%{
+        position: absolute;
+        top: 512px;
+        left: 218px;
+    }
+}
+#space19:hover{
+    animation-play-state: paused;
+}
+#space19:hover ~ #dashbox19{
+    animation-play-state: paused;
+}
+#space19:hover ~ #spacedot19{
+    animation-play-state: paused;
+}
+/*space20*/
+#dashbox20{
+    width: 120px;
+    height: 250px;
+    position: absolute;
+    top: 600px;
+    left: 573px;
+    transform: skewY(20deg);
+    animation: dashbox20 5s infinite ease;
+    animation-play-state: running;
+}
+#spacedot20{
+    position: absolute;
+    top: 855px;
+    left: 688px;
+    animation: dotmove20 5s infinite ease;
+    animation-play-state: running;
+}
+#space20{
+    position: absolute;
+    top: 855px;
+    left: 688px;
+    animation: dotmove20 5s infinite ease;
+    animation-play-state: running;
+}
+@keyframes dashbox20{
+    0%{
+        position: absolute;
+        top: 600px;
+        left: 573px;
+    }
+    50%{
+        position: absolute;
+        top: 600px;
+        left: 573px;
+        width: 70px;
+        height: 150px;
+    }
+    100%{
+        position: absolute;
+        top: 600px;
+        left: 573px;
+    }
+}
+@keyframes dotmove20{
+    0%{
+        position: absolute;
+        top: 855px;
+        left: 688px;
+    }
+    50%{
+        position: absolute;
+        top: 743px;
+        left: 637px;
+    }
+    100%{
+        position: absolute;
+        top: 855px;
+        left: 688px; 
+    }
+}
+#space20:hover{
+    animation-play-state: paused;
+}
+#space20:hover ~ #dashbox20{
+    animation-play-state: paused;
+}
+#space20:hover ~ #spacedot20{
+    animation-play-state: paused;
+}
